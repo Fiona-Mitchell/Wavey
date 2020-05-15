@@ -2,7 +2,7 @@
 ------------------------------------*/
 
 :root {
-  --background: #DAE3E5;
+  --background: #DAE3ED;
   --wave: #283044;
 }
 
@@ -45,11 +45,11 @@ body{
 .logo::after{
   content: "";
   position: absolute;
-  bottom: -50%;
+  bottom: -10%;
   left: -50%;
   height: 200%;
   width: 200%;
-  background: blue;
+  background: #DAE3ED;
   border-radius: 40%;
   animation: wave 5s ease-in-out infinite;
 }
